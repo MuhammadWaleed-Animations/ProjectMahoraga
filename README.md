@@ -18,13 +18,16 @@ Welcome to **Project Mahoraga**! This is a group project inspired by My Anime Li
 
 ## How to Run the Project
 
-1. **Clone the Repository**: Download or clone the repository to your local machine.
+1. **Clone the Repository**: Download or clone the repository to your local machine. (Just both Zip file ProjectMahoraga.zip and SQL.zip)
 
 2. **Set Up the Database**: Ensure you have MS SQL Server installed and set up the database using the provided schema.
 
 3. **Install Dependencies**: Navigate to the project directory and install the required dependencies.
 
 4. **Run the Project**: Start the Flutter project.
+     ```
+     python .\app.py
+     ```
 
 ## User Guide
 
