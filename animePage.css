@@ -1,0 +1,264 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: crimson;
+    background-image: url(/static/images/animePage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.button-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .button-container button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-container button:hover {
+    background-color: #45a049;
+  }
+  
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.anime-info-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px; 
+}
+
+.anime-info-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.discussion-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.discussion-title {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.discussion-list {
+    margin-top: 20px;
+}
+
+.new-comment {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.comment-input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.post-comment-btn {
+    padding: 10px 20px;
+    background-color: #FF5733; /* Red theme */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.post-comment-btn:hover {
+    background-color: #D6360B; /* Darker shade of red */
+}
+
+.review {
+    background-color: #B22222; /* Red theme */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.review p {
+    margin: 5px 0;
+    color: #FFFFFF; /* Text color */
+}
+
+.review .username {
+    font-weight: bold;
+}
+
+.review .review-date {
+    text-align: right;
+    font-size: 0.8em;
+    color: #CCCCCC;
+}
+
+
+.rating-container {
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px; 
+
+    max-width: 100%;
+    height: auto;
+}
+
+.rating-container h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.rating-stars {
+    margin-bottom: 20px;
+}
+
+.rating-stars .star {
+    font-size: 30px;
+    color: #FFD700; /* Gold color for stars */
+    cursor: pointer;
+}
+
+.rating-stars .star:hover,
+.rating-stars .star.active {
+    color: #FFA500; /* Orange color for highlighted stars */
+}
+
+.submit-rating-btn {
+    padding: 10px 20px;
+    background-color: #FF5733; /* Red theme */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-rating-btn:hover {
+    background-color: #D6360B; /* Darker shade of red */
+}
+
+/*
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.anime-info-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h2, p {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    background-color: red;
+    display: inline;
+    font-size: 200%;
+}
+
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+
+*/
+/* Global styles
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    background-color: paleturquoise;
+    display: inline;
+    color: black;
+
+}
+p{
+    background-color: paleturquoise;
+    display: inline;
+    color: black;
+    
+}
+
+.anime-info-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+h2 {
+    font-size: 28px;
+    color:  o;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.release-date {
+    font-style: italic;
+}
+ */

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Anime</title>
+    <link rel="stylesheet" href="/static/CSS/insertAnime.css">
+</head>
+<body>
+    <h1>Insert Anime</h1>
+    <form id="anime-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea>
+        <br>
+        <label for="age_restriction">Age Restriction:</label>
+        <input type="number" min="0" id="age_restriction" name="age_restriction">
+        <br>
+        <label for="releasedate">Release Date (YYYY-MM-DD):</label>
+        <input type="date" id="releasedate" name="releasedate" required>
+        <br>
+        <label for="released">Released:</label>
+        <input type="checkbox" id="released" name="released" value="1"> Yes
+        <br>
+        <button type="submit">Insert Anime</button>
+    </form>
+    <p id="message"></p>
+
+    <script src="/static/JS/insertAnime.js"></script>
+</body>
+</html>
