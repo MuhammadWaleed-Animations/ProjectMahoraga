@@ -1,0 +1,37 @@
+use ProjectMahoraga
+drop Table animeImg
+create table animeImg(
+	aniId int foreign key references Anime(aid),
+	img varchar(20),
+	primary key(aniid)
+);
+insert into animeImg values(1, '1.jpg')
+insert into animeImg values(2, '2.jpg')
+insert into animeImg values(3, '3.jpg')
+insert into animeImg values(4, '4.jpg')
+insert into animeImg values(5, '5.jpg')
+insert into animeImg values(6, '6.jpg')
+insert into animeImg values(7, '7.jpg')
+insert into animeImg values(8, '8.jpg')
+insert into animeImg values(9, '9.jpg')
+insert into animeImg values(10, '10.jpg')
+insert into animeImg values(11, '11.jpg')
+insert into animeImg values(12, '12.jpg')
+insert into animeImg values(13, '13.jpg')
+insert into animeImg values(14, '14.jpg')
+insert into animeImg values(15, '15.jpg')
+insert into animeImg values(16, '16.jpg')
+insert into animeImg values(17, '17.jpg')
+insert into animeImg values(18, '18.jpg')
+insert into animeImg values(19, '19.jpg')
+insert into animeImg values(20, '20.jpg')
+insert into animeImg values(21, '21.jpg')
+insert into animeImg values(22, '22.jpg')
+insert into animeImg values(23, '23.jpg')
+insert into animeImg values(24, '24.jpg')
+insert into animeImg values(25, '25.jpg')
+insert into animeImg values(26, '26.jpg')
+insert into animeImg values(27, '27.jpg')
+insert into animeImg values(28, '28.jpg')
+insert into animeImg values(29, '29.jpg')
+insert into animeImg values(30, '30.jpg')
