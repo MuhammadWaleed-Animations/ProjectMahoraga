@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.anime-info-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.anime-info-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.discussion-container {
+    background-color: #1F3C4E;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.discussion-title {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.discussion-list {
+    margin-top: 20px;
+}
+
+.new-comment {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.comment-input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.post-comment-btn {
+    padding: 10px 20px;
+    background-color: #28A745;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.post-comment-btn:hover {
+    background-color: #218838;
+}
+
+.comment {
+    background-color: #30475E;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comment p {
+    margin: 5px 0;
+}
+
+.comment .username {
+    font-weight: bold;
+}
+
+.comment .time {
+    text-align: right;
+    font-size: 0.8em;
+    color: #CCCCCC;
+}
+
+
+
+
+.button-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .button-container button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-container button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50; /* Dark blue-gray background */
+    color: #ffffff;
+  }
+  
+  nav {
+    background-color: #34495e; /* Dark blue background for navigation */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  ul li a:hover {
+    color: #ff7f50; /* Light orange on hover */
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2c3e50; /* Dark blue-gray background for dropdown */
+    min-width: 120px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #34495e; /* Dark blue background on hover */
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffffff; /* White background for search input */
+  }
+  
+  .search-container button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff7f50; /* Light orange button */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-container button:hover {
+    background-color: #ff6348; /* Darker orange on hover */
+  }
+  
+  #anime-table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  #anime-table th,
+  #anime-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #anime-table th {
+    background-color: #34495e; /* Dark blue background for table headers */
+    color: #ffffff;
+  }
+  
+  #anime-table td {
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  #anime-table tr:hover {
+    background-color: cadetblue; /* Darker blue-gray background on hover */
+  }
